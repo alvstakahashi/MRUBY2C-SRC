@@ -4,18 +4,18 @@
 -mint-register=0
 -I "c:\program files (x86)\renesas\swest1\tools\kpit\gnurx-elf\v12.01\rx-elf\rx-elf\include"
 -I "c:\program files (x86)\renesas\swest1\tools\kpit\gnurx-elf\v12.01\rx-elf\lib\gcc\rx-elf\4.6-GNURX_v12.01\include"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_build"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_common"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_common\include"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_common\include\rxduino"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_common\lib"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_mruby\include"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\include"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\ssp"
--I "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\\arch\RX62N"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_build"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_common"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_common\include"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_common\include\rxduino"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_common\lib"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_mruby\include"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\include"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\ssp"
+-I "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\\arch\RX62N"
 -D DEBUG
 -D HEWSIM
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\hardware_setup.c"
+"D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\hardware_setup.c"
 -g
 -g2
--o "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1\hardware_setup.o"
+-o "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1\hardware_setup.o"

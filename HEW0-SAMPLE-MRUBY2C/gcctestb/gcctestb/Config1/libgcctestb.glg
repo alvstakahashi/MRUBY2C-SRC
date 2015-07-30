@@ -1,5 +1,5 @@
 --compiler-options=-mcpu=rx600,-mlittle-endian-data,-mint-register=0,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
 --assembler-options=--mlittle-endian-data,--m32bit-doubles
---output="D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1\libgcctestb.a"
+--output="D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1\libgcctestb.a"
 --select-lib=newlib
 --header-files=all

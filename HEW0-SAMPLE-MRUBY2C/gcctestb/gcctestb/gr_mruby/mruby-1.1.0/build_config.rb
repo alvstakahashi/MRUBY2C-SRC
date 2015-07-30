@@ -110,14 +110,14 @@ MRuby::CrossBuild.new('grsakura') do |conf|
 #   conf.gem "#{root}/mrbgems/mruby-sprintf"
    conf.gem "#{root}/mrbgems/mruby-math"
 
-  conf.gem 'mrbgems/mruby-ssp-delay'
-  conf.gem 'mrbgems/mruby-ssp-delay2'
-  conf.gem 'mrbgems/mruby-rx-getc'
-  conf.gem 'mrbgems/mruby-ssp-thread'
-  conf.gem 'mrbgems/mruby-ssp-alarm'
-  conf.gem 'mrbgems/mruby-ssp-cyclic'
-  conf.gem 'mrbgems/mruby-rx-gpio'
-  conf.gem 'mrbgems/mruby-rx-rcservo'
+#  conf.gem 'mrbgems/mruby-ssp-delay'
+#  conf.gem 'mrbgems/mruby-ssp-delay2'
+#  conf.gem 'mrbgems/mruby-rx-getc'
+#  conf.gem 'mrbgems/mruby-ssp-thread'
+#  conf.gem 'mrbgems/mruby-ssp-alarm'
+#  conf.gem 'mrbgems/mruby-ssp-cyclic'
+#  conf.gem 'mrbgems/mruby-rx-gpio'
+#  conf.gem 'mrbgems/mruby-rx-rcservo'
   conf.gem 'mrbgems/mruby-skiponce'
 
    conf.gem :core => "mruby-print"

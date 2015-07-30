@@ -7,25 +7,11 @@
 [GENERAL_DATA]
 [BREAKPOINTS]
 [OPEN_WORKSPACE_FILES]
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\arch\RX62N\target_kernel.h" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\crt0.s" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gcctestb.c" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\hardware_setup.c" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\interrupt_handlers.c" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\lowlbl.s" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\rbcall.c" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\rx63nsci0.c" 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\ssp\time_event.c" 
+"D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\crt0.s" 
+"D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gcctestb.c" 
 [WORKSPACE_FILE_STATES]
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\arch\RX62N\target_kernel.h" -8 -31 961 357 1 8 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\crt0.s" 0 0 961 357 0 0 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gcctestb.c" 52 52 841 214 0 2 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\hardware_setup.c" 78 78 841 214 0 3 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\interrupt_handlers.c" 26 26 841 214 0 1 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\lowlbl.s" 52 52 841 214 0 6 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\rbcall.c" 104 104 841 214 0 7 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\rx63nsci0.c" 0 0 841 214 0 5 
-"D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\ssp\time_event.c" 104 104 841 214 0 4 
+"D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\crt0.s" 0 0 837 210 0 0 
+"D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gcctestb.c" -8 -31 961 357 1 1 
 [LOADED_PROJECTS]
 "gcctestb" 
 [END]

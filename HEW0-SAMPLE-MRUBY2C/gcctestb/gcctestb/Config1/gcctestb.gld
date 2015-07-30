@@ -1,10 +1,10 @@
--T "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1\gcctestb_Config1_auto.gsi"
--T "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1\gcctestb_input.tmp" 
+-T "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1\gcctestb_Config1_auto.gsi"
+-T "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1\gcctestb_input.tmp" 
 -L "c:\program files (x86)\renesas\swest1\tools\kpit\gnurx-elf\v12.01\rx-elf\lib\gcc\rx-elf\4.6-GNURX_v12.01"
--L "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1"
--L "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_common\lib"
--L "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gr_mruby\mruby-1.1.0\build\grsakura\lib"
--Map "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1\gcctestb.map"
+-L "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1"
+-L "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_common\lib"
+-L "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gr_mruby\mruby-1.1.0\build\grsakura\lib"
+-Map "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1\gcctestb.map"
 --start-group -l "gcctestb" -l "mruby" -l "supc++" -l "stdc++" -l "sim" -l "g" -l "gcc" --end-group
--o "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\Config1\gcctestb.x"
+-o "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\Config1\gcctestb.x"
 -e _PowerON_Reset

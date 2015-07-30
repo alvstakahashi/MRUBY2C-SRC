@@ -3,12 +3,12 @@
 [DATABASE_VERSION]
 "11.0" 
 [WORKSPACE_DETAILS]
-"gcctestb" "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb" "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb.hws" "RX" "KPIT GNURX [ELF]" 
+"gcctestb" "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb" "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb.hws" "RX" "KPIT GNURX [ELF]" 
 [SHARED_WORKSPACE_CONTROL_STATUS]
 "" "" "" 
 "" "" "" 
 [PROJECTS]
-"gcctestb" "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb" "D:\usr\github\workspace\GR-SAKURA-MRUBY-CAR\gcctestb\gcctestb\gcctestb.hwp" 0 
+"gcctestb" "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb" "D:\usr\github\clone\MRUBY2C-SRC\HEW0-SAMPLE-MRUBY2C\gcctestb\gcctestb\gcctestb.hwp" 0 
 [INFORMATION]
 "ワークスペース情報がありません" 
 [SCRAP]

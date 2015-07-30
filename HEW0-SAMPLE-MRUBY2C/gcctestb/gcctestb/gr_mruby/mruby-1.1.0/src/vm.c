@@ -79,6 +79,20 @@ stack_copy(mrb_value *dst, const mrb_value *src, size_t size)
   }
 }
 
+#define ALVSTAKAHASHI
+
+#ifdef ALVSTAKAHASHI
+
+static mrb_value 
+body_func(mrb_state *mrb,struct RProc *m,mrb_value recv)
+{
+	mrb_callinfo *ci = mrb->c->ci;
+	mrb_value result = m->body.func(mrb, recv);
+	mrb->c->ci = ci;
+	return(result);
+}
+#endif
+
 static void
 stack_init(mrb_state *mrb)
 {
@@ -1102,7 +1116,11 @@ RETRY_TRY_BLOCK:
           ci->argc = n;
           ci->nregs = n + 2;
         }
+#ifdef ALVSTAKAHASHI
+		result = body_func(mrb,m,recv);
+#else
         result = m->body.func(mrb, recv);
+#endif
         mrb->c->stack[0] = result;
         mrb_gc_arena_restore(mrb, ai);
         if (mrb->exc) goto L_RAISE;
@@ -1168,7 +1186,11 @@ RETRY_TRY_BLOCK:
 
       /* prepare stack */
       if (MRB_PROC_CFUNC_P(m)) {
+#ifdef ALVSTAKAHASHI
+		recv = body_func(mrb,m,recv);
+#else
         recv = m->body.func(mrb, recv);
+#endif
         mrb_gc_arena_restore(mrb, ai);
         if (mrb->exc) goto L_RAISE;
         /* pop stackpos */
@@ -1251,7 +1273,11 @@ RETRY_TRY_BLOCK:
 
       if (MRB_PROC_CFUNC_P(m)) {
         ci->nregs = 0;
+#ifdef ALVSTAKAHASHI
+		mrb->c->stack[0] = body_func(mrb,m,recv);
+#else
         mrb->c->stack[0] = m->body.func(mrb, recv);
+#endif
         mrb_gc_arena_restore(mrb, ai);
         if (mrb->exc) goto L_RAISE;
         /* pop stackpos */
@@ -1625,7 +1651,11 @@ RETRY_TRY_BLOCK:
       value_move(mrb->c->stack, &regs[a], ci->argc+1);
 
       if (MRB_PROC_CFUNC_P(m)) {
+#ifdef ALVSTAKAHASHI
+		mrb->c->stack[0] = body_func(mrb,m,recv);
+#else
         mrb->c->stack[0] = m->body.func(mrb, recv);
+#endif
         mrb_gc_arena_restore(mrb, ai);
         goto L_RETURN;
       }
